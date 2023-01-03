@@ -937,7 +937,7 @@ background-color: var(--button-active);
     cursor: pointer;
     font-family: inherit;
     color: var(--white-color);
-    
+    padding-left: 15px;
 
 
 }
