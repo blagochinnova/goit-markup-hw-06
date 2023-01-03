@@ -909,7 +909,7 @@ text-align: center;
 background-color: var(--button-active);
 }
 
-
+/* footer-form */
 .subscribe{
     display: flex;
     align-items: stretch;
