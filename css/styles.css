@@ -307,6 +307,10 @@ align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
 }
+.icon-feat{
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* Tasks */
 .task{
@@ -543,7 +547,7 @@ transition: background-color 250ms var(--animation-timing-function), color 250ms
 }
 
 .footer-soc-link {
-    margin-right: 94px;
+    margin-right: auto;
 }
 
 .footer-logo {
@@ -788,6 +792,10 @@ margin: 0;
 
 .form-field label{
 margin-bottom: 4px;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.01em;
+font-size: 12px;
 }
 
 .form-field input{
@@ -798,6 +806,7 @@ padding: 11px 12px;
 border: 1px solid var(--border-input);
 border-radius: 4px;
 transition: border-color 250 ms var(--animation-timing-function);
+padding-left: 42px;
 }
 .form-field .comment{
 padding: 12px 16px;
@@ -851,7 +860,7 @@ transition: color 250ms var(--animation-timing-function);
     align-items: center;
     font-size: 14px;
     transition: color 250ms var(--animation-timing-function), background-color 250ms var(--animation-timing-function);
-
+    justify-content: center;
 
 }
 
@@ -904,7 +913,7 @@ background-color: var(--button-active);
 .subscribe{
     display: flex;
     align-items: stretch;
-    
+    position: relative;
     
 }
 /* .subscribe-tittle{
@@ -925,22 +934,26 @@ background-color: var(--button-active);
     border-radius: 4px;
     background-color: transparent;
     transition: border-color 250ms var(--animation-timing-function);
-
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--white-color);
     
 
 
 }
 .subscribe-input:hover,
 .subscribe-input:focus{
+    outline: none;
     border-color: var(--accent-color);
 }
 .subscribe-label{
+    /* padding-right: 16px; */
     position: absolute;
     top: 15px;
     left: 16px;
     font-size: 16px;
+    margin-left: 16px;
     transition: color 250ms var(--animation-timing-function),transform 250ms var(--animation-timing-function);
-
 }
 .subscribe-button{
     display: flex;
@@ -957,6 +970,7 @@ background-color: var(--button-active);
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: inherit;
 }
 .icon-subscribe{
     margin-right: 0;
@@ -971,3 +985,4 @@ background-color: var(--button-active);
     width: 70px;
     height: 70px;
 }
+
