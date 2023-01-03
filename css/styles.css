@@ -307,6 +307,7 @@ align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 /* Tasks */
 .task{
     padding-top: 0;
@@ -527,7 +528,7 @@ transition: background-color 250ms var(--animation-timing-function), color 250ms
     display: flex;
     color: var(--white-color);
 }
-.icon-join .icon:not(:last-child){
+.icon-foot:not(:last-child){
     margin-right: 10px;
 }
 .icon-team-footer{
@@ -542,7 +543,6 @@ transition: background-color 250ms var(--animation-timing-function), color 250ms
 }
 
 .footer-soc-link {
-    margin-bottom: 60px;
     margin-right: 94px;
 }
 
@@ -571,11 +571,11 @@ transition: background-color 250ms var(--animation-timing-function), color 250ms
     background-color: var(--footer-social-bg);
 }
 
-.icon-join {
+.icon-join-svg {
     fill: currentColor;
-    width: 20px;
-    height: 20px;
+
 }
+
 
 .icon-team-footer:focus,
 .icon-team-footer:hover {
@@ -779,6 +779,9 @@ display: flex;
 flex-direction: column;
 position: relative;
 }
+.commentary{
+margin: 0;
+}
 .form-field:not(:last-child){
     margin-bottom: 10px;
 }
@@ -847,6 +850,8 @@ transition: color 250ms var(--animation-timing-function);
     display: flex;
     align-items: center;
     font-size: 14px;
+    transition: color 250ms var(--animation-timing-function), background-color 250ms var(--animation-timing-function);
+
 
 }
 
@@ -873,6 +878,7 @@ display: inline;
     color: var(--accent-color);
     font-size: 14px;
     line-height: 1.714;
+    margin-left: 9px;
 }
 .button-form{
     width: 216px;
@@ -897,7 +903,6 @@ background-color: var(--button-active);
 
 .subscribe{
     display: flex;
-    flex-wrap: wrap;
     align-items: stretch;
     
     
