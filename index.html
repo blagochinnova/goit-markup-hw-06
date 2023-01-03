@@ -386,11 +386,20 @@
                     </li>
                 </ul>
             </div>
-
-
-    
-
 </address>
+<form action="" class="subscribe">
+    <b class="subscribe-tittle">Підпишіться на розсилку</b>
+<div class="subscribe">
+    <label for="email" class="subscribe-label"></label>
+    <input type="email" name="email" id="email" placeholder="E-mail" class="subscribe-input">
+    
+    <button class="subscribe-button"> <span>Підписатися</span> 
+        <svg class="icon-subscribe">
+            <use href="./images/icon_form/icon_form.svg#icon-send" ></use>
+        </svg>
+    </button>
+</div>
+</form>
 </div>
 
 </footer>
@@ -399,31 +408,40 @@
         <form class="form">
         <h2 class="tittle-form" >Залиште свої дані, ми вам передзвонимо</h2>
         <div class="form-field">
-        <input type="text" name="name" id="name" class="form-input">
         <label  for="name" class="form-label" >Ім'я</label>
-        <span class="icon-form"></span>
+        <input type="text" name="name" id="name" class="form-input">
+        <svg class="icon-form">
+            <use href="./images/icon_form/icon_form.svg#icon-person" ></use>
+        </svg>
         </div>
 
         <div class="form-field">
-        <input type="tel" name="phone" id="tel" class="form-input">
         <label  for="tel" class="form-label">Телефон</label>
-        <span class="icon-form"></span>
+        <input type="tel" name="phone" id="tel" class="form-input">
+        <svg class="icon-form">
+            <use href="./images/icon_form/icon_form.svg#icon-phone" ></use>
+        </svg>
         </div>
 
         <div class="form-field">
-        <input type="email" name="email" id="email" class="form-input">
         <label  for="email" class="form-label">Пошта</label>
-        <span class="icon-form"></span>
+        <input type="email" name="email" id="email" class="form-input">
+        <svg class="icon-form">
+            <use href="./images/icon_form/icon_form.svg#icon-email" ></use>
+        </svg>
         </div>
 
         <div class="form-field">
+        <label  for="text" class="form-label">Коментар</label>    
         <textarea class="comment" name="comment" id="text" cols="30" rows="10" placeholder="Введіть текст"></textarea>
-        <label  for="text" class="form-label">Коментар</label>
         </div>
         
-        <div class="form-field">
-        <input type="checkbox" name="policy" id="policy">
-        <label for="policy">Погоджуюся з розсилкою та приймаю Умови договору</label>
+        <div class="form-field-checkbox">
+        <input type="checkbox" name="policy" id="policy" class="checkbox">
+        <label class="checkbox-label" for="policy">
+            <span class="checkbox-inner" > Погоджуюся з розсилкою та приймаю  </span>
+            <a href="" class="policy-agriment" >  Умови договору</a>  </label>
+        <span class="checkbox-icon"></span>
         
         </div>
         <button class="button-form">Відправити</button>
