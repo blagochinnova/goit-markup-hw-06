@@ -920,7 +920,6 @@ background-color: var(--button-active);
 .subscribe-input{
     height: 50px;
     width: 358px;
-    padding-left: 15px;
     font-size: 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -932,7 +931,9 @@ background-color: var(--button-active);
     color: var(--white-color);
     
 
-
+}
+.subscribe input{
+    padding-left: 15px;
 }
 .subscribe-input:hover,
 .subscribe-input:focus{
