@@ -606,6 +606,7 @@ transition: background-color 250ms var(--animation-timing-function), color 250ms
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
+    gap: 30px;
 
 }
 /* .portfolio-list .link:hover,
@@ -638,8 +639,6 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 
 
 .portfolio-list .card {
-flex-basis: calc((100% - 3 * 30px) / 3);
-margin: 10px;
 background: var(--white-color);
 }
 .port-link{
@@ -836,8 +835,7 @@ position: absolute;
 width: 18px;
 height: 18px;
 left: 12px;
-top: 70%;
-transform: translateY(-50%);
+top: 50%;
 fill: currentColor;
 transition: color 250ms var(--animation-timing-function);
 }
@@ -903,6 +901,12 @@ border: none;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 transition: color 250ms var(--animation-timing-function), background-color 250ms var(--animation-timing-function);
 text-align: center;
+cursor: pointer;
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+
 }
 .button-form:focus,
 .button-form:hover{
@@ -965,6 +969,9 @@ background-color: var(--button-active);
     border-radius: 4px;
     cursor: pointer;
     font-family: inherit;
+    font-weight: 700;
+    line-height: 1.87;
+
 }
 .icon-subscribe{
     margin-right: 0;
